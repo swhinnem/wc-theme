@@ -1,3 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+.widget .widget-title, .comment-form label {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none; }
 
+body {
+  background-color: #ffffff; }
+
+.site {
+  background-color: transparent; }
+
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder {
+  color: #686868;
+  font-family: "Open Sans", sans-serif; }
+
+:-moz-placeholder {
+  color: #686868;
+  font-family: "Open Sans", sans-serif; }
+
+::-moz-placeholder {
+  color: #686868;
+  font-family: "Open Sans", sans-serif;
+  opacity: 1;
+  /* Since FF19 lowers the opacity of the placeholder by default */ }
+
+:-ms-input-placeholder {
+  color: #686868;
+  font-family: "Open Sans", sans-serif; }
+
+.site-title, .main-navigation, .pagination, .entry-title, .entry-footer, .widget .widget-title, .comments-title, .comment-reply-title, .comment-form label {
+  font-family: inherit; }
+
+.widget, .pagination, .comments-title, .comment-reply-title {
+  border-top: none; }
+
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus {
+  font-family: inherit;
+  text-transform: none;
+  font-weight: 400; }
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.5; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300; }
+  .entry-content h1, .entry-content
+  h2, .entry-content
+  h3, .entry-content
+  h4, .entry-content
+  h5, .entry-content
+  h6 {
+    font-weight: 300; }
+
+.site-title, .entry-title, .comments-title, .comment-reply-title {
+  font-weight: 300; }
 
 /*# sourceMappingURL=wcnyc-2016.css.map */

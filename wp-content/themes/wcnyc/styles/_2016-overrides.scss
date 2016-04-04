@@ -1,0 +1,38 @@
+body {
+    background-color: $white;
+}
+
+.site {
+    background-color: transparent;
+}
+
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder {
+    color: $medium-grey;
+    font-family: $font-stack;
+}
+
+:-moz-placeholder {
+    color: $medium-grey;
+    font-family: $font-stack;
+}
+
+::-moz-placeholder {
+    color: $medium-grey;
+    font-family: $font-stack;
+    opacity: 1;
+    /* Since FF19 lowers the opacity of the placeholder by default */
+}
+
+:-ms-input-placeholder {
+    color: $medium-grey;
+    font-family: $font-stack;
+}
+
+.site-title, .main-navigation, .pagination, .entry-title, .entry-footer, .widget .widget-title, .comments-title, .comment-reply-title, .comment-form label {
+    font-family: inherit;
+}
+
+.widget, .pagination, .comments-title, .comment-reply-title {
+    border-top: none;
+}

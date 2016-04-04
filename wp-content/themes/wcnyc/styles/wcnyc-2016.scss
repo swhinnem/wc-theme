@@ -1,1 +1,44 @@
+// SASS vars, placeholders, setup stuff
+@import 'typography';
 @import 'base';
+
+// Import overrides to twentysixteen theme
+@import '2016-overrides';
+
+// SASS style partials
+@import 'forms';
+
+// Font import
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,700');
+
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: $font-stack;
+    font-weight: $font-regular;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: $font-light;
+
+    .entry-content & {
+        font-weight: $font-light;
+    }
+}
+
+.site-title, .entry-title, .comments-title, .comment-reply-title {
+    font-weight: $font-light;
+}
+
+.widget .widget-title, .comment-form label {
+    @extend %small-caps;
+}

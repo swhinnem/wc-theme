@@ -30,7 +30,7 @@ body:not(.custom-background-image):before, body:not(.custom-background-image):af
         height: 0;
         padding-bottom: 32%;
         background-color: $secondary;
-        background-image: url('images/un-hero.jpg');
+        background-image: url('https://2016.nyc.wordcamp.org/files/2016/04/un-hero.jpg');
         background-size: cover;
         background-position: center center;
         position: absolute;
@@ -73,7 +73,7 @@ body:not(.custom-background-image):before, body:not(.custom-background-image):af
             display: block;
             height: 0;
             padding-bottom: 67.30769%;
-            background-image: url('images/wcnyc-logo.png');
+            background-image: url('https://2016.nyc.wordcamp.org/files/2016/04/wcnyc-logo.png');
             background-size: cover;
         }
     }

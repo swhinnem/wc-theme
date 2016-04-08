@@ -1,7 +1,3 @@
-body {
-    background-color: $white;
-}
-
 .site {
     background-color: transparent;
 }
@@ -29,10 +25,10 @@ body {
     font-family: $font-stack;
 }
 
-.site-title, .main-navigation, .pagination, .entry-title, .entry-footer, .widget .widget-title, .comments-title, .comment-reply-title, .comment-form label {
+.site-title, .main-navigation, .page-title, .pagination, .post-navigation, .post-navigation .post-title, .entry-title, .entry-footer, .widget .widget-title, .comments-title, .comment-reply-title, .comment-form label {
     font-family: inherit;
 }
 
-.widget, .pagination, .comments-title, .comment-reply-title {
-    border-top: none;
+.page-header, .widget, .pagination, .post-navigation, .post-navigation div + div, .comments-title, .comment-reply-title {
+    border: 0;
 }

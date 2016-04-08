@@ -1,16 +1,37 @@
-button,
-button[disabled]:hover,
-button[disabled]:focus,
-input[type="button"],
-input[type="button"][disabled]:hover,
-input[type="button"][disabled]:focus,
-input[type="reset"],
-input[type="reset"][disabled]:hover,
-input[type="reset"][disabled]:focus,
-input[type="submit"],
-input[type="submit"][disabled]:hover,
-input[type="submit"][disabled]:focus {
-    font-family: inherit;
-    text-transform: none;
-    font-weight: $font-regular;
+body {
+    button,
+    button[disabled]:hover,
+    button[disabled]:focus,
+    input[type="button"],
+    input[type="button"][disabled]:hover,
+    input[type="button"][disabled]:focus,
+    input[type="reset"],
+    input[type="reset"][disabled]:hover,
+    input[type="reset"][disabled]:focus,
+    input[type="submit"],
+    input[type="submit"][disabled]:hover,
+    input[type="submit"][disabled]:focus {
+        font-family: inherit;
+        text-transform: none;
+        font-weight: $font-regular;
+        background-color: $accent;
+        color: $near-white;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="url"],
+    input[type="password"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="number"],
+    textarea {
+        background-color: $near-white;
+
+        &:focus {
+            background-color: $near-white;
+            border-color: $light-grey;
+        }
+
+    }
 }

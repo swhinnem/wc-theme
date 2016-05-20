@@ -234,4 +234,9 @@ a {
   a:hover {
     color: #178479; }
 
+/* remove Tix Quantity Remaining */
+.tix-column-remaining {
+  display: none;
+}
+
 /*# sourceMappingURL=wcnyc-2016.css.map */

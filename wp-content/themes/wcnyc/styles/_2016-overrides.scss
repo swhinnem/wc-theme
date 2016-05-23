@@ -43,7 +43,13 @@ table {
 }
 
 .tix-column-description {
-    max-width: 200px;
+    max-width: 300px;
+}
+
+.tix-column-price {
+    padding-left: 2em;
+    padding-right: 2em;
+    max-width: 100px;
 }
 
 .tix-column-remaining {

@@ -236,3 +236,8 @@ a {
         color: darken($primary, 10%);
     }
 }
+
+.security-warning {
+    color: $accent;
+    font-weight: $font-bold;
+}

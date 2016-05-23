@@ -254,4 +254,8 @@ a {
   a:hover {
     color: #178479; }
 
+.security-warning {
+  color: #9a0e21;
+  font-weight: 700; }
+
 /*# sourceMappingURL=wcnyc-2016.css.map */

@@ -33,8 +33,20 @@
 .page-header, .widget, .pagination, .post-navigation, .post-navigation div + div, .comments-title, .comment-reply-title {
   border: 0; }
 
+table {
+  table-layout: initial;
+  border: 0; }
+  table th, table td {
+    border: 0; }
+
+.tix-column-description {
+  max-width: 200px; }
+
 .tix-column-remaining {
   display: none; }
+
+.tix-column-quantity {
+  text-align: right; }
 
 body button,
 body button[disabled]:hover,
